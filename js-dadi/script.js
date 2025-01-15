@@ -9,3 +9,13 @@ let numeroGiocatore = Math.floor(Math.random() * 6) + 1;
 let numeroComputer = Math.floor(Math.random() * 6) + 1;
 
 console.log ( numeroGiocatore, numeroComputer )
+
+if ( numeroGiocatore > numeroComputer){
+    console.log (`il giocatore ha vinto: ${numeroGiocatore} - ${numeroComputer}`)
+}
+else if ( numeroGiocatore < numeroComputer ) {
+    console.log (`il computer ha vinto: ${numeroGiocatore} - ${numeroComputer}`)
+}
+else {
+    console.log (`il computer e il giocatore hanno pareggiato`)
+}
